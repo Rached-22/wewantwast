@@ -22,8 +22,7 @@
     "react-router-dom": "^7.6.1",
     "react-scripts": "5.0.1",
     "typeface-roboto": "^1.1.13",
-    "web-vitals": "^2.1.4",
-      "babel-plugin-transform-modules-commonjs": "^6.26.2"
+    "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
