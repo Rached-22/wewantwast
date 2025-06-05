@@ -37,40 +37,54 @@
   }
 }
 
-/*  les classe du css ajoutés par rached*/
-
-.timeline-list {
-  position: relative;
-  padding-left: 1.5em; /* espace pour puces + fil */
-  list-style-type: disc;
-}
-
-/* Fil vertical continu */
-.timeline-list::before {
-  content: "";
-  position: absolute;
-  top: 0.9em;         /* commence un peu en dessous du début */
-  left: 0.55em;       /* aligné avec les puces */
-  width: 1px;
-  height: calc(100% - 1.8em); /* descend sur toute la hauteur sauf un peu en haut et bas */
-  background-color: #ccc;
-  z-index: 0;
-}
-
 .timeline-list li {
   position: relative;
   margin-bottom: 10px;
-  z-index: 1; /* au-dessus du fil */
+  z-index: 1; 
+  font-size: 12px;
 }
 .pointer{
   cursor: pointer;
-  transition: border 0.3s ease; /* Pour une animation douce */
+  transition: border 0.3s ease; 
 }
 .pointer:hover {
-  border: 2px solid blue; /* Ajoute une bordure bleue au hover */
-  box-sizing: border-box; /* Pour éviter un décalage du contenu à cause de la bordure */
+  border: 2px solid blue;
+  box-sizing: border-box;
 }
 .pointer:active {
   border: 2px solid blue;
   box-sizing: border-box;
+}
+
+.MuiGrid-root{
+  gap:unset !important
+}
+.MuiStepConnector-line{
+  display: none !important;
+}
+.MuiBox-root.css-por6iu{
+  border-color: #bdbdbd;
+    border-left-style: solid;
+    border-left-width: 1px;
+    min-height: 24px;
+    margin-left: 10px;
+    padding-bottom: 0px;
+    padding-left: 0px !important;
+}
+.timeline-list{
+  margin-bottom: 0px;
+}
+
+body{
+    background-color: ghostwhite !important;
+}
+.MuiBox-root.css-19x4egf{
+  margin-top: 3%;
+}
+.LeftPanel{
+ border-right:  1px solid rgb(218, 222, 227)
+}
+.MuiBox-root.css-fu1u8z{
+  margin-top:  3%;
+  padding-right:2.5%;
 }

@@ -3,7 +3,6 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css'; 
 import { BrowserRouter as Router } from 'react-router-dom'; 
 import VerticalStipper from './Components/VerticalStipper';
-import ListRoutes from './Routes/ListRoutes';
 
 function App() {
   return (
