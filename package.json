@@ -49,6 +49,7 @@
     ]
   },
   "devDependencies": {
-    "@babel/plugin-proposal-decorators": "^7.27.1"
+    "@babel/plugin-proposal-decorators": "^7.27.1",
+    "@babel/plugin-transform-modules-commonjs": "^7.27.1"
   }
 }
